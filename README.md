@@ -1,4 +1,4 @@
-<img src="assets/profile-cover.png" width="100%" alt="Ali Emre Altuntaş — ABAP, Fiori / SAPUI5 and integrations. Practical tools. Thoughtful implementation.">
+<img src="assets/profile-cover.png" width="100%" alt="Ali Emre Altuntaş — ABAP, Fiori / SAPUI5 and integrations.">
 
 <p>
   <a href="https://www.linkedin.com/in/ali-emre-altuntas/">LinkedIn</a> &nbsp; / &nbsp;
@@ -10,7 +10,7 @@ I'm **Ali Emre Altuntaş**, a computer engineer and SAP developer based in Ankar
 
 Here, I share practical tools and implementation experience, with an emphasis on clear setup, maintainable code, and everyday use.
 
-## Selected work
+## Open-source SAP tools
 
 <a href="https://github.com/Cheditte/abap-tcmb-rates">
   <img src="assets/tcmb-project-cover.png" width="100%" alt="TCMB Exchange Rates — one ABAP report for a repeatable daily workflow: preview, verify and schedule.">
@@ -21,6 +21,14 @@ Here, I share practical tools and implementation experience, with an emphasis on
 Read daily exchange rates from the Central Bank of the Republic of Türkiye, preview the results, and save rates to SAP for verification in **OB08**. Install through **SE38 with one source file**, use Turkish or English screens, and schedule recurring execution.
 
 **[Explore the project](https://github.com/Cheditte/abap-tcmb-rates)** &nbsp; / &nbsp; [Setup & usage](https://github.com/Cheditte/abap-tcmb-rates/blob/main/WALKTHROUGH.md) &nbsp; / &nbsp; [Türkçe rehber](https://github.com/Cheditte/abap-tcmb-rates/blob/main/WALKTHROUGH.tr.md)
+
+| What you need | Project |
+|---|---|
+| Email, files, calendars and Teams workflows with Microsoft 365 | [abap-graph](https://github.com/Cheditte/abap-graph) |
+| Read and process emails and attachments from an IMAP mailbox in SAP | [abap-imap-inbound](https://github.com/Cheditte/abap-imap-inbound) |
+| Review potential duplicate customer and vendor records | [abap-partner-duplicates](https://github.com/Cheditte/abap-partner-duplicates) |
+
+Each repository explains its setup, examples and verified scope.
 
 <details>
 <summary><strong>More code: React frontend example</strong></summary>

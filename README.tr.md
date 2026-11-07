@@ -10,7 +10,7 @@ Ben **Ali Emre Altuntaş**. Ankara'da yaşayan bir bilgisayar mühendisi ve SAP 
 
 Burada kurulumu anlaşılır, bakımı kolay ve günlük kullanımda fayda sağlayan araçlarımı ve geliştirme deneyimlerimi paylaşıyorum.
 
-## Öne çıkan çalışma
+## Açık kaynak SAP araçları
 
 <a href="https://github.com/Cheditte/abap-tcmb-rates">
   <img src="assets/tcmb-project-cover.png" width="100%" alt="TCMB döviz kurları — tek ABAP raporuyla ön izleme, doğrulama ve zamanlanmış çalıştırma.">
@@ -21,6 +21,14 @@ Burada kurulumu anlaşılır, bakımı kolay ve günlük kullanımda fayda sağl
 Türkiye Cumhuriyet Merkez Bankası'nın günlük kurlarını okuyun, sonuçları ön izleyin ve SAP'ye kaydederek **OB08'de** kontrol edin. **SE38 üzerinden tek kaynak dosyasıyla** kurun; Türkçe veya İngilizce ekranları kullanın ve düzenli çalışması için arka plan işi planlayın.
 
 **[Projeyi incele](https://github.com/Cheditte/abap-tcmb-rates)** &nbsp; / &nbsp; [Kurulum ve kullanım](https://github.com/Cheditte/abap-tcmb-rates/blob/main/WALKTHROUGH.tr.md) &nbsp; / &nbsp; [English guide](https://github.com/Cheditte/abap-tcmb-rates/blob/main/WALKTHROUGH.md)
+
+| İhtiyaç | Proje |
+|---|---|
+| Microsoft 365 ile e-posta, dosya, takvim ve Teams işlemleri | [abap-graph](https://github.com/Cheditte/abap-graph) |
+| IMAP kutusundaki e-postaları ve ekleri SAP'de okumak ve işlemek | [abap-imap-inbound](https://github.com/Cheditte/abap-imap-inbound) |
+| Olası mükerrer müşteri ve satıcı kayıtlarını incelemek | [abap-partner-duplicates](https://github.com/Cheditte/abap-partner-duplicates) |
+
+Her projenin kurulum adımları, örnekleri ve doğrulanmış kapsamı kendi deposunda açıklanıyor.
 
 <details>
 <summary><strong>Diğer kod çalışması: React arayüz örneği</strong></summary>
