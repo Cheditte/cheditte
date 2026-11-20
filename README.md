@@ -1,29 +1,73 @@
+[![Ali Emre Altuntaş’ın noktalı portresi. Ankara, Türkiye.](assets/portrait-cover.png)](https://aliemrealtuntas.com/)
+
 [English](README.en.md) · [Portföy](https://aliemrealtuntas.com/) · [LinkedIn](https://www.linkedin.com/in/ali-emre-altuntas/)
 
-![Ali Emre Altuntaş. Bilgisayar ve el terminali ekranlarının SAP’ye bağlandığı bir çizim.](assets/profile-cover.png)
+# SAP ABAP & Fiori/UI5 Geliştiricisi
 
-## SAP ABAP & Fiori/UI5 Geliştiricisi
+Finans ekipleri için tahsilatların SAP FI’da muhasebeleştirilmesi, sahadaki ekipler için de ürünlerin el terminalinden takibi üzerine çalıştım. Burada geliştirdiğim araçları ve SAP’yi ekiplerin kullandığı uygulamalarla nasıl buluşturduğumu paylaşıyorum.
 
-Ankara’da çalışan bir bilgisayar mühendisiyim. ABAP ile finans ve veri kontrolü uygulamaları, Fiori/UI5 ile sahada kullanılan ekranlar geliştiriyorum. Çalıştığım işlerden ikisi, tahsilatın SAP FI’da muhasebeleştirilmesi ve ürünün el terminalinden takip edilmesi.
+## Açık kaynak projeler
 
-## Bir projenin içinden · SAP’den SMS
+<table>
+<tr>
+  <td width="32%"><a href="https://aliemrealtuntas.com/tr/projeler/rates/"><img src="assets/projects/rates.webp" alt="TCMB kur listesinden SAP kur tablosuna veri aktarımı." width="320"></a></td>
+  <td><h3>TCMB döviz kurları</h3><p>Günün kurunu SAP’deki değerle karşılaştırır. Kullanıcı eklenen ve değişen kurları kontrol edip kaydeder.</p><a href="https://aliemrealtuntas.com/tr/projeler/rates/">Ekranları incele</a> · <a href="https://github.com/Cheditte/abap-tcmb-rates">Kaynak kodu</a></td>
+</tr>
+<tr>
+  <td width="32%"><a href="https://aliemrealtuntas.com/tr/projeler/netgsm/"><img src="assets/netgsm-cover.jpg" alt="SAP’de hazırlanan bir mesajın Netgsm üzerinden telefona gidişini anlatan çizim." width="320"></a></td>
+  <td><h3>SAP’den SMS</h3><p>Ekip, belge hazır olduğunda SAP’de bir SMS hazırlar. Göndermeden önce geçerli alıcıları ve mesajın kaç parçaya bölündüğünü görür.</p><a href="https://aliemrealtuntas.com/tr/projeler/netgsm/">Ekranları incele</a> · <a href="https://github.com/Cheditte/abap-sms-netgsm">Kaynak kodu</a></td>
+</tr>
+<tr>
+  <td width="32%"><a href="https://aliemrealtuntas.com/tr/projeler/imap/"><img src="assets/projects/imap.webp" alt="E-postadaki dosya eklerinin SAP’ye aktarılması." width="320"></a></td>
+  <td><h3>SAP gelen kutusu</h3><p>Gelen e-postayı ekleriyle birlikte SAP’ye alır. Ekip belgeyi açabilir ve işlenemeyen postayı aynı ekrandan yeniden deneyebilir.</p><a href="https://aliemrealtuntas.com/tr/projeler/imap/">Ekranları incele</a> · <a href="https://github.com/Cheditte/abap-imap-inbound">Kaynak kodu</a></td>
+</tr>
+<tr>
+  <td width="32%"><a href="https://aliemrealtuntas.com/tr/projeler/partners/"><img src="assets/projects/partners.webp" alt="Benzer iki kayıt büyüteç altında karşılaştırılıyor." width="320"></a></td>
+  <td><h3>İş ortağı eşleştirme</h3><p>İki müşteri veya tedarikçi kaydında hangi bilgilerin eşleştiğini gösterir. Kayıtların aynı kişiye ya da kuruluşa ait olup olmadığına ekip karar verir.</p><a href="https://aliemrealtuntas.com/tr/projeler/partners/">Ekranları incele</a> · <a href="https://github.com/Cheditte/abap-partner-duplicates">Kaynak kodu</a></td>
+</tr>
+</table>
 
-[![SAP’den Netgsm aracılığıyla telefona giden bildirimin çizimi.](assets/netgsm-cover.jpg)](https://aliemrealtuntas.com/tr/projeler/netgsm/)
+## SAP entegrasyonları
 
-Bir belge hazır olduğunda ekibin SAP’den SMS hazırlayabilmesi için bu raporu geliştirdim. Kullanıcı mesajı yazıp önizlemeyi açtığında hangi numaraların geçerli olduğunu ve metnin kaç SMS parçasına bölüneceğini görebiliyor. Gönderime bu kontrolden sonra karar veriyor.
+Altı projeyi [portföydeki haritada gez](https://aliemrealtuntas.com/#transfer-yard) veya bir görsele dokunarak doğrudan o projenin ekranlarına geç.
 
-[SAP ekranlarında incele](https://aliemrealtuntas.com/tr/projeler/netgsm/) · [Kaynak kodu ve kurulum](https://github.com/Cheditte/abap-sms-netgsm)
+<table>
+<tr>
+  <td width="50%" valign="top">
+    <a href="https://aliemrealtuntas.com/tr/projeler/slack/"><img src="assets/projects/slack.webp" alt="SAP talebinin bir mesajdaki onay seçeneklerine bağlanışı." width="420"></a>
+    <h3><a href="https://aliemrealtuntas.com/tr/projeler/slack/">Slack</a></h3>
+    <p>Ekip, SAP talebini Slack mesajından onaylar veya reddeder. Verilen karar SAP’deki talebe geri yazılır.</p>
+  </td>
+  <td width="50%" valign="top">
+    <a href="https://aliemrealtuntas.com/tr/projeler/jira/"><img src="assets/projects/jira.webp" alt="Bir SAP talebinden oluşan Jira iş kaydı." width="420"></a>
+    <h3><a href="https://aliemrealtuntas.com/tr/projeler/jira/">Jira</a></h3>
+    <p>SAP’de açılan talep Jira’da bir iş kaydına dönüşür. Ekip işi kendi Jira ekranından takip eder.</p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <a href="https://aliemrealtuntas.com/tr/projeler/whatsapp/"><img src="assets/projects/whatsapp.webp" alt="SAP’den bir WhatsApp konuşmasına belge gönderimi." width="420"></a>
+    <h3><a href="https://aliemrealtuntas.com/tr/projeler/whatsapp/">WhatsApp</a></h3>
+    <p>SAP’de hazırlanan PDF telefonda WhatsApp belgesi olarak görünür. Alıcının yanıtı SAP’ye döner.</p>
+  </td>
+  <td width="50%" valign="top">
+    <a href="https://aliemrealtuntas.com/tr/projeler/graph/"><img src="assets/projects/graph.webp" alt="SAP ve Microsoft 365 arasında takvim, dosya ve posta bağlantıları." width="420"></a>
+    <h3><a href="https://aliemrealtuntas.com/tr/projeler/graph/">Microsoft 365 · Graph</a></h3>
+    <p>Microsoft 365 takvimindeki toplantılar SAP ekranında listelenir. Kullanıcı toplantı bilgisini çalıştığı yerden okuyabilir.</p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <a href="https://aliemrealtuntas.com/tr/projeler/directory/"><img src="assets/projects/directory.webp" alt="SAP hesaplarıyla dizin kayıtlarının karşılaştırılması." width="420"></a>
+    <h3><a href="https://aliemrealtuntas.com/tr/projeler/directory/">Active Directory</a></h3>
+    <p>Dizinde devre dışı bırakıldığı hâlde SAP’de açık kalan hesapları karşılaştırma raporunda gösterir.</p>
+  </td>
+  <td width="50%" valign="top">
+    <a href="https://aliemrealtuntas.com/tr/projeler/ldap/"><img src="assets/projects/ldap.webp" alt="SAP üzerinden şirket dizininde kullanıcı doğrulama." width="420"></a>
+    <h3><a href="https://aliemrealtuntas.com/tr/projeler/ldap/">LDAP</a></h3>
+    <p>Çalışan şirket hesabıyla portala girer. SAP, hesabın etkinliğini ve parolayı dizinde doğrular. Portal bu sonuca göre oturumu açar veya girişi reddeder.</p>
+  </td>
+</tr>
+</table>
 
-## Diğer açık kaynak projelerim
-
-- **TCMB döviz kurları.** Günün kurunu SAP’deki kayıtla karşılaştırıp hangi değerin ekleneceğini veya değişeceğini kaydetmeden önce gösteriyor. [Ekranlar](https://aliemrealtuntas.com/tr/projeler/rates/) · [Kod](https://github.com/Cheditte/abap-tcmb-rates)
-- **Gelen e-postalar.** E-postayı ekleriyle SAP’ye alıyor. Ekip gelen belgeyi açabiliyor, işlenemeyen bir postayı yeniden deneyebiliyor. [Ekranlar](https://aliemrealtuntas.com/tr/projeler/imap/) · [Kod](https://github.com/Cheditte/abap-imap-inbound)
-- **Mükerrer iş ortakları.** Benzer müşteri ve tedarikçi kayıtlarını bulup hangi bilgilerin eşleştiğini gösteriyor. Son kararı kayıtları inceleyen kişi veriyor. [Ekranlar](https://aliemrealtuntas.com/tr/projeler/partners/) · [Kod](https://github.com/Cheditte/abap-partner-duplicates)
-
-## Özel projelerden ekranlar
-
-- [Slack’te bir SAP talebini onaylama](https://aliemrealtuntas.com/tr/projeler/slack/) — Onayın hangi mesajda verildiğini ve kararın SAP’ye nasıl döndüğünü takip et.
-- [SAP talebini Jira’da iş kaydına dönüştürme](https://aliemrealtuntas.com/tr/projeler/jira/) — Talebin SAP’deki başlangıcını ve Jira’da ekibin gördüğü kaydı incele.
-- [Microsoft 365 takvimini SAP’de görüntüleme](https://aliemrealtuntas.com/tr/projeler/graph/) — Microsoft Graph üzerinden okunan takvimin SAP ekranına nasıl geldiğini gör.
-
-[Tüm SAP entegrasyonları](https://aliemrealtuntas.com/#transfer-yard) · [Deneyimim](https://aliemrealtuntas.com/hakkimda/)
+[Deneyimim](https://aliemrealtuntas.com/hakkimda/) · [İletişim](https://aliemrealtuntas.com/iletisim/)
