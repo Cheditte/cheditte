@@ -1,61 +1,85 @@
-<img src="assets/profile-cover.png" width="100%" alt="Ali Emre Altuntaş — ABAP, Fiori / SAPUI5 and integrations.">
+[![Ali Emre Altuntaş’ın noktalı portresi. Ankara, Türkiye.](assets/portrait-cover.png)](https://aliemrealtuntas.com/)
 
-<p>
-  <a href="https://www.linkedin.com/in/ali-emre-altuntas/">LinkedIn</a> &nbsp; / &nbsp;
-  <a href="https://www.aliemrealtuntas.com">Portfolio</a> &nbsp; / &nbsp;
-  <a href="README.tr.md">Türkçe</a>
-</p>
+[English](README.en.md) · [Portföy](https://aliemrealtuntas.com/) · [LinkedIn](https://www.linkedin.com/in/ali-emre-altuntas/)
 
-I'm **Ali Emre Altuntaş**, a computer engineer and SAP developer based in Ankara, Türkiye. I build business applications and integrations with **ABAP and Fiori/SAPUI5**, connecting user interfaces, SAP services, and backend processes.
+# SAP ABAP & Fiori/UI5 Geliştiricisi
 
-Here, I share practical tools and implementation experience, with an emphasis on clear setup, maintainable code, and everyday use.
+Finans ekipleri için tahsilatların SAP FI’da muhasebeleştirilmesi, sahadaki ekipler için de ürünlerin el terminalinden takibi üzerine çalıştım. Burada geliştirdiğim araçları ve SAP’yi ekiplerin kullandığı uygulamalarla nasıl buluşturduğumu paylaşıyorum.
 
-## Open-source SAP tools
+## Açık kaynak projeler
 
-<a href="https://github.com/Cheditte/abap-tcmb-rates">
-  <img src="assets/tcmb-project-cover.png" width="100%" alt="TCMB Exchange Rates — one ABAP report for a repeatable daily workflow: preview, verify and schedule.">
-</a>
+<table>
+<tr>
+  <td width="50%" valign="top">
+    <a href="https://aliemrealtuntas.com/tr/projeler/rates/"><img src="assets/projects/rates.webp" alt="TCMB kur listesinden SAP kur tablosuna veri aktarımı." width="420"></a>
+    <p><strong>TCMB döviz kurları</strong></p>
+    <p>Günün kurunu SAP’deki değerle karşılaştırır. Kullanıcı eklenen ve değişen kurları kontrol edip kaydeder.</p>
+    <a href="https://aliemrealtuntas.com/tr/projeler/rates/">Ekranları incele</a> · <a href="https://github.com/Cheditte/abap-tcmb-rates">Kaynak kodu</a>
+  </td>
+  <td width="50%" valign="top">
+    <a href="https://aliemrealtuntas.com/tr/projeler/netgsm/"><img src="assets/projects/netgsm.jpg" alt="SAP’de hazırlanan bir mesajın Netgsm üzerinden telefona gidişini anlatan çizim." width="420"></a>
+    <p><strong>SAP’den SMS</strong></p>
+    <p>Ekip, belge hazır olduğunda SAP’de bir SMS hazırlar. Göndermeden önce geçerli alıcıları ve mesajın kaç parçaya bölündüğünü görür.</p>
+    <a href="https://aliemrealtuntas.com/tr/projeler/netgsm/">Ekranları incele</a> · <a href="https://github.com/Cheditte/abap-sms-netgsm">Kaynak kodu</a>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <a href="https://aliemrealtuntas.com/tr/projeler/imap/"><img src="assets/projects/imap.webp" alt="E-postadaki dosya eklerinin SAP’ye aktarılması." width="420"></a>
+    <p><strong>SAP gelen kutusu</strong></p>
+    <p>Gelen e-postayı ekleriyle birlikte SAP’ye alır. Ekip belgeyi açabilir ve işlenemeyen postayı aynı ekrandan yeniden deneyebilir.</p>
+    <a href="https://aliemrealtuntas.com/tr/projeler/imap/">Ekranları incele</a> · <a href="https://github.com/Cheditte/abap-imap-inbound">Kaynak kodu</a>
+  </td>
+  <td width="50%" valign="top">
+    <a href="https://aliemrealtuntas.com/tr/projeler/partners/"><img src="assets/projects/partners.webp" alt="Benzer iki kayıt büyüteç altında karşılaştırılıyor." width="420"></a>
+    <p><strong>İş ortağı eşleştirme</strong></p>
+    <p>İki müşteri veya tedarikçi kaydında hangi bilgilerin eşleştiğini gösterir. Kayıtların aynı kişiye ya da kuruluşa ait olup olmadığına ekip karar verir.</p>
+    <a href="https://aliemrealtuntas.com/tr/projeler/partners/">Ekranları incele</a> · <a href="https://github.com/Cheditte/abap-partner-duplicates">Kaynak kodu</a>
+  </td>
+</tr>
+</table>
 
-### TCMB exchange rates for SAP
+## SAP entegrasyonları
 
-Read daily exchange rates from the Central Bank of the Republic of Türkiye, preview the results, and save rates to SAP for verification in **OB08**. Install through **SE38 with one source file**, use Turkish or English screens, and schedule recurring execution.
+Altı projeyi [portföydeki haritada gez](https://aliemrealtuntas.com/#transfer-yard) veya bir görsele dokunarak doğrudan o projenin ekranlarına geç.
 
-**[Explore the project](https://github.com/Cheditte/abap-tcmb-rates)** &nbsp; / &nbsp; [Setup & usage](https://github.com/Cheditte/abap-tcmb-rates/blob/main/WALKTHROUGH.md) &nbsp; / &nbsp; [Türkçe rehber](https://github.com/Cheditte/abap-tcmb-rates/blob/main/WALKTHROUGH.tr.md)
+<table>
+<tr>
+  <td width="50%" valign="top">
+    <a href="https://aliemrealtuntas.com/tr/projeler/slack/"><img src="assets/projects/slack.webp" alt="SAP talebinin bir mesajdaki onay seçeneklerine bağlanışı." width="420"></a>
+    <p><strong><a href="https://aliemrealtuntas.com/tr/projeler/slack/">Slack</a></strong></p>
+    <p>Ekip, SAP talebini Slack mesajından onaylar veya reddeder. Verilen karar SAP’deki talebe geri yazılır.</p>
+  </td>
+  <td width="50%" valign="top">
+    <a href="https://aliemrealtuntas.com/tr/projeler/jira/"><img src="assets/projects/jira.webp" alt="Bir SAP talebinden oluşan Jira iş kaydı." width="420"></a>
+    <p><strong><a href="https://aliemrealtuntas.com/tr/projeler/jira/">Jira</a></strong></p>
+    <p>SAP’de açılan talep Jira’da bir iş kaydına dönüşür. Ekip işi kendi Jira ekranından takip eder.</p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <a href="https://aliemrealtuntas.com/tr/projeler/whatsapp/"><img src="assets/projects/whatsapp.webp" alt="SAP’den bir WhatsApp konuşmasına belge gönderimi." width="420"></a>
+    <p><strong><a href="https://aliemrealtuntas.com/tr/projeler/whatsapp/">WhatsApp</a></strong></p>
+    <p>SAP’de hazırlanan PDF telefonda WhatsApp belgesi olarak görünür. Alıcının yanıtı SAP’ye döner.</p>
+  </td>
+  <td width="50%" valign="top">
+    <a href="https://aliemrealtuntas.com/tr/projeler/graph/"><img src="assets/projects/graph.webp" alt="SAP ve Microsoft 365 arasında takvim, dosya ve posta bağlantıları." width="420"></a>
+    <p><strong><a href="https://aliemrealtuntas.com/tr/projeler/graph/">Microsoft 365 · Graph</a></strong></p>
+    <p>Microsoft 365 takvimindeki toplantılar SAP ekranında listelenir. Kullanıcı toplantı bilgisini çalıştığı yerden okuyabilir.</p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <a href="https://aliemrealtuntas.com/tr/projeler/directory/"><img src="assets/projects/directory.webp" alt="SAP hesaplarıyla dizin kayıtlarının karşılaştırılması." width="420"></a>
+    <p><strong><a href="https://aliemrealtuntas.com/tr/projeler/directory/">Active Directory</a></strong></p>
+    <p>Dizinde devre dışı bırakıldığı hâlde SAP’de açık kalan hesapları karşılaştırma raporunda gösterir.</p>
+  </td>
+  <td width="50%" valign="top">
+    <a href="https://aliemrealtuntas.com/tr/projeler/ldap/"><img src="assets/projects/ldap.webp" alt="SAP üzerinden şirket dizininde kullanıcı doğrulama." width="420"></a>
+    <p><strong><a href="https://aliemrealtuntas.com/tr/projeler/ldap/">LDAP</a></strong></p>
+    <p>Çalışan şirket hesabıyla portala girer. SAP, hesabın etkinliğini ve parolayı dizinde doğrular. Portal bu sonuca göre oturumu açar veya girişi reddeder.</p>
+  </td>
+</tr>
+</table>
 
-| What you need | Project |
-|---|---|
-| Email, files, calendars and Teams workflows with Microsoft 365 | [abap-graph](https://github.com/Cheditte/abap-graph) |
-| Read and process emails and attachments from an IMAP mailbox in SAP | [abap-imap-inbound](https://github.com/Cheditte/abap-imap-inbound) |
-| Review potential duplicate customer and vendor records | [abap-partner-duplicates](https://github.com/Cheditte/abap-partner-duplicates) |
-
-Each repository explains its setup, examples and verified scope.
-
-<details>
-<summary><strong>More code: React frontend example</strong></summary>
-
-A small React blog application in [dojo-blog](https://github.com/Cheditte/dojo-blog), exploring components, routing, and frontend structure.
-
-</details>
-
-## Expertise
-
-| SAP development | User experience | Systems integration |
-| :--- | :--- | :--- |
-| ABAP · ABAP Objects · SAP ERP | Fiori · SAPUI5 · JavaScript | OData · REST APIs · RFC · BAPI |
-| Business logic, validation and error handling | Business applications and handheld interfaces | Data exchange between SAP and external platforms |
-
-## Experience in practice
-
-- **Finance and documents:** online collection integration with SAP FI, automated accounting, and e-invoice processing.
-- **Operational applications:** Fiori/SAPUI5 handheld interfaces and product traceability, with data validation and consistency checks.
-- **Connected workflows:** SAP PS / Microsoft Project integration, mobile signatures, and electronic signatures.
-
-Client code, business data, and internal system details remain private. Public work includes only shareable examples and implementation patterns.
-
-## How I work
-
-I start with the business requirement and consider the user journey, data quality, integration behavior, and failure cases together. I value readable code, practical documentation, code review, and validation against real business scenarios.
-
----
-
-**Let's connect:** [LinkedIn](https://www.linkedin.com/in/ali-emre-altuntas/) · [Portfolio](https://www.aliemrealtuntas.com)
+[Deneyimim](https://aliemrealtuntas.com/hakkimda/) · [İletişim](https://aliemrealtuntas.com/iletisim/)
